@@ -105,7 +105,7 @@ Before you begin, note that this project does require soldering and cutting the 
 
     Will probaly be easy to solder the wires before putting into the hole.
 
-    ![](images/Switch_Wiring.jpg)
+    ![](images/Switch Wiring.jpg)
 
 
 # Firmware
