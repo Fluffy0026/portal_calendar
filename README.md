@@ -103,9 +103,15 @@ Before you begin, note that this project does require soldering and cutting the 
 
 9. Solder wires onto the switch, push the switch into the hole and glue it (hot glue, JB weld, etc.)
 
-    Will probaly be easy to solder the wires before putting into the hole.
+    It will probably be easy to solder the wires before putting into the hole.
 
     ![](images/SwitchWiring.jpg)
+
+9. Solder wires onto the ESP32 Controller on pins: 3V3, D19
+
+    This will allow the code think that there is A USB connected, allowing the config mode to appear.
+
+    ![](images/SwitchWiring2.jpg)
 
 
 # Firmware
