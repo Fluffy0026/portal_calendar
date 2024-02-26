@@ -170,7 +170,13 @@ The build_image.py script can take in any image format supported by PIL and will
 
 The build_font.py script will take in TrueType or OpenType fonts and output a bitmap font rendered at the specified size to a C header file, using the same encoding format as build_image. Look at [build_fonts.sh](resources/build_fonts.sh) for usage examples. Unlike for the images, I haven't included the source fonts in this repository because they are the original, proprietary fonts used in the Portal games. If you want to rebuild those fonts, it's up to you to find them online.
 
+## Changes to model 
+I have changed the design to fit a different [esp32 controller.](https://www.amazon.com.au/dp/B0966LV5B7?psc=1&ref=ppx_yo2ov_dt_b_product_details) I have also hardwired a switch to control the config mode as this was an issue of some controllers not having the sensor required to toggle the config more info [issue described here](https://github.com/wuspy/portal_calendar/issues/21) The power goes from the 3V pin to pin19 giving it the illusion of being connected to USB power as this is the pin that is checked.
+
 # Changelog
+
+### 2/26/2024
+* Added infomation on changes
 
 ### 2/12/2024
 
